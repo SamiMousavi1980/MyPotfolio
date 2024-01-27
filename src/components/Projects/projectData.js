@@ -1,5 +1,29 @@
 const projectsData = [
   {
+    title: "Get It Done (GID) Learning Management System",
+    description: `GID is a comprehensive Learning Management System (LMS) designed to enhance the learning experience, simplifying task management, and providing learning materials. 
+    Developed from scratch, GID focuses on pleasing the target audience aesthetically (UI) and ensuring a seamless experience (UX). At Marshal Middle School, GID, introduced by 
+    Miss Meryl, has become an all-in-one solution. Max, a student, finds GID a lifesaver with smooth quizzes and easy access to online materials. For Miss Meryl, GID simplifies 
+    quiz and lesson creation, making progress tracking efficient. Administrators praise GID for streamlining management, creating a more efficient school environment. GID brings 
+    simplicity, fun, and success to Marshal Middle School.`,
+    tags: [
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "Vite",
+      "TypeScript",
+      "Mongo DB",
+      "TailWinds CSS",
+      "JSON Webtokens",
+    ],
+    links: {
+      image: "projects/GID.jpg",
+      code: "https://github.com/Rif-7/mybook",
+      preview: "https://rif-7.github.io/mybook/",
+    },
+  },
+
+  {
     title: "Hospital Information System (HIS)",
     description: `The HIS software for the Ahvaz Oil Hospital is a comprehensive Medical Information System designed to enhance 
     the quality of healthcare services. This software provides intelligent and integrated features for medical teams, hospital management, 
