@@ -50,7 +50,7 @@ export default function Navbar() {
           </MenuItem>
           <MenuItem>
             <Link w={"100%"} href="#projects">
-              <Icon as={AiOutlineTool} /> Projects
+              <Icon as={AiOutlineTool} /> Articles & Projects
             </Link>
           </MenuItem>
           <MenuItem>

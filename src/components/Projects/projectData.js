@@ -85,4 +85,69 @@ const projectsData = [
   },
 ];
 
-export { projectsData };
+const articlessData = [
+  {
+    title: "Challenges and Solutions in Project Governance and Implementation",
+    description: `This article provides a detailed analysis of a prominent player in the oil industry, focusing on its current projects and the challenges it faces. It underscores 
+    the importance of understanding project phases and offers recommendations for improvement, including establishing a Project Governance Committee and implementing a Business 
+    Intelligence Center. Additionally, it suggests using industrial automation to increase efficiency and proposes methods for enhancing employee job satisfaction and promoting 
+    continuous learning. Ultimately, it serves as a roadmap for the organization's future success, offering strategies to navigate the complexities of the oil industry with 
+    resilience and achieve growth.`,
+    tags: [
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "Vite",
+      "TypeScript",
+      "Mongo DB",
+      "TailWinds CSS",
+      "JSON Webtokens",
+    ],
+    links: {
+      image: "projects/Soloution.png",
+      code: "https://github.com/Rif-7/mybook",
+      preview: "https://www.linkedin.com/posts/sami-mousavi_activity-7162566971664904192-Fyh_?utm_source=share&utm_medium=member_desktop",
+    },
+  },
+
+  {
+    title: "Examining Factors Influencing ICT Outsourcing Success",
+    description: `My article, titled "Examining Factors Influencing ICT Outsourcing Success," has been published in two journals, "Connecting People with Nature" and 
+    "International Science Congress Association Research Journal of Recent Sciences." In this study, I delve into key factors such as the outsourcing process and communication, 
+    offering practical insights for organizations and employers in the field of information and communication technology. To access these studies, you can visit my LinkedIn profile. 
+    The appended text provides further details on the findings and conclusions.`,
+    tags: [
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "Mongo DB",
+      "JSON Webtokens",
+    ],
+    links: {
+      image: "projects/IT Outsourcing Success.png",
+      code: "https://github.com/Rif-7/mybook",
+      preview: "https://www.linkedin.com/posts/sami-mousavi_examining-factors-influencing-ict-outsourcing-activity-7158884285486153729-j4km?utm_source=share&utm_medium=member_desktop",
+    },
+  },
+  {
+    title: "The Impact of Information Technology on Human Life: Ethical, Social, and Organizational Dimensions",
+    description: `This article examines the profound impact of Information and Communication Technology (ICT) on contemporary life. It discusses the changes ICT has brought to 
+    business landscapes, ethical issues, and the crucial role of information as a prominent resource. The importance of teaching ethical principles in educational environments and 
+    adapting to evolving technologies is also emphasized. Additionally, organizational transformations resulting from the integration of computer systems and the strategic benefits 
+    of outsourcing IT services for e-commerce are succinctly discussed. Ultimately, the article advocates for aligning technological advancements with ethical principles for 
+    responsible leadership in the technology landscape.`,
+    tags: [
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "Mongo DB",
+      "JSON Webtokens",
+    ],
+    links: {
+      image: "projects/Ethics.png",
+      code: "https://github.com/Rif-7/mybook",
+      preview: "https://www.linkedin.com/posts/sami-mousavi_activity-7162527125625913344-Tsav?utm_source=share&utm_medium=member_desktop",
+    },
+  }
+];
+export { projectsData , articlessData };

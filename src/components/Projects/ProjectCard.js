@@ -55,6 +55,7 @@ export default function ProjectCard({ project, index }) {
             <Link isExternal href={links.code}>
             </Link>
             <Link isExternal href={links.preview}>
+              Preview
             </Link>
           </HStack>
         </Box>

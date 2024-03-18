@@ -1,5 +1,5 @@
 import { Button, Link, Text, VStack } from "@chakra-ui/react";
-import { projectsData } from "./projectData";
+import { projectsData, articlessData } from "./projectData";
 import ProjectCard from "./ProjectCard";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { useLayoutEffect, useRef } from "react";
@@ -52,7 +52,23 @@ export default function Projects() {
     >
       <Text
         className="space"
-        fontSize={{ base: "18px", md: "22px" }}
+        fontSize={{ base: "312px", md: "42px" }}
+        textDecor={"underline"}
+      >
+        Articles
+      </Text>
+      <VStack
+        mt={"50px"}
+        padding={{ base: "10px", md: "22px" }}
+        gap={{ base: "50px", lg: "100px" }}
+      >
+        {articlessData.map((project, index) => (
+          <ProjectCard project={project} key={index} index={index} />
+        ))}
+      </VStack>
+      <Text
+        className="space"
+        fontSize={{ base: "18px", md: "42px" }}
         textDecor={"underline"}
       >
         Projects
