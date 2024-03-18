@@ -1,5 +1,5 @@
 import { Text, VStack } from "@chakra-ui/react";
-import { languages, otherSkills } from "./skillData";
+import { languages, otherSkills, Industry } from "./skillData";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect, useRef } from "react";
@@ -43,8 +43,9 @@ export default function Skills() {
       >
       </Text>
       <VStack gap={"12px"} align={"stretch"}>
-        <SkillSet skills={languages} title={"Technical Skills"} />
-        <SkillSet skills={otherSkills} title={"Management Skills"} />
+        <SkillSet skills={languages} title={"Tools & Technologies"} />
+        <SkillSet skills={otherSkills} title={"Interpersonal Skills"} />
+        <SkillSet skills={Industry} title={"Industry Knowledge"} />
       </VStack>
     </VStack>
   );
