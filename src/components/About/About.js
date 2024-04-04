@@ -55,11 +55,12 @@ export default function About() {
         <Text as={"b"} className="space-mono">
           {myAge}
         </Text>
-         - (years.second) old Highly accomplished IT Professional with 24 years of technical, managerial,
-        and research experience. Proven track record in project management, customer support,
-        and process improvement. Adept at analyzing complex situations, driving productivity,
-        and implementing strategic IT solutions. Strong leadership and communication skills,
-        known for developing and leading high-performing teams. Seeking to leverage expertise as an IT Manager.      </Text>
+         - (years.second) old, Experienced IT Manager and specialist with a proven track record in large and complex environments. With over 24 years of experience, my career 
+         encompasses IT management and project management in the oil and gas industry in one of the largest producers in this field in the Middle East. Throughout these roles, 
+         I spearheaded initiatives that streamlined processes, enhanced productivity, and achieved strategic organizational objectives. Additionally, I've served as an IT manager 
+         in a major healthcare facility during the COVID-19 pandemic, further honing my crisis management and IT solution deployment skills to address evolving challenges. With a 
+         wealth of diverse and specialized experiences, I am well-equipped to excel in various roles within the fields of Information Technology and Project Management.
+      </Text>
 
       <Skills />
     </Flex>
