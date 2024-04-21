@@ -35,12 +35,14 @@ export default function ProjectCard({ project, index }) {
         alignSelf={"flex-start"}
       />
 
-      <VStack alignItems={"flex-start"} maxW={"400px"} className="project-info">
+      <VStack alignItems={"flex-start"} maxW={"600px"} className="project-info">
         <Text
           className="raleway"
           fontSize={"22px"}
           fontWeight={"semibold"}
           color={"#0075F2"}
+          width={"500px"}
+          textAlign={"justify"}
         >
           {title}
         </Text>
@@ -48,20 +50,19 @@ export default function ProjectCard({ project, index }) {
           className="merriweather"
           fontWeight={"thin"}
           borderBottom={"1px solid gray"}
-          pb={"30px"}
+          pb={"10px"}
+          width={"500px"}
+          textAlign={"justify"}
         >
           <Text> {description}</Text>
-          <HStack gap={"4px"} mt={"16px"}>
+          <HStack gap={"4px"} mt={"0"}>
             <Link isExternal href={links.code}>
-            </Link>
-            <Link isExternal href={links.preview}>
-              Preview
             </Link>
           </HStack>
         </Box>
         <Flex wrap={"wrap"} gap={"4px"}>
           {tags.map((tag, index) => (
-            <Badge key={index} variant={"solid"} colorScheme={"blue"}>
+            <Badge key={index} variant={"solid"} colorScheme={"blue"} textTransform="none">
               {tag}
             </Badge>
           ))}

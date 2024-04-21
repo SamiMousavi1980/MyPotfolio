@@ -1,5 +1,29 @@
 const projectsData = [
   {
+    title: "Icon Restoration V2.00",
+    description: `Icon Restoration's website is a cutting-edge platform designed and developed using React framework, showcasing the company's expertise in construction, 
+    renovation, and structural engineering. Powered by Node.js and complemented by HTML, CSS, and other essential web technologies, this website serves as a digital gateway 
+    to Icon Restoration's comprehensive services. From showcasing past projects to providing insights into their innovative solutions, the website offers visitors an 
+    immersive experience into the world of construction and restoration. Built with user experience in mind, it seamlessly combines aesthetic appeal with functionality, 
+    reflecting Icon Restoration's commitment to excellence in every aspect of their work.`,
+    tags: [
+      "Node JS",
+      "Express JS",
+      "React JS",
+      "Vite",
+      "TypeScript",
+      "Mongo DB",
+      "TailWinds CSS",
+      "JSON Webtokens",
+    ],
+    links: {
+      image: "projects/ICR.png",
+      code: "https://github.com/Rif-7/mybook",
+      preview: "https://rif-7.github.io/mybook/",
+    },
+  },
+
+  {
     title: "Get It Done (GID) Learning Management System",
     description: `GID is a comprehensive Learning Management System (LMS) designed to enhance the learning experience, simplifying task management, and providing learning materials. 
     Developed from scratch, GID focuses on pleasing the target audience aesthetically (UI) and ensuring a seamless experience (UX). At Marshal Middle School, GID, introduced by 
@@ -94,14 +118,20 @@ const articlessData = [
     continuous learning. Ultimately, it serves as a roadmap for the organization's future success, offering strategies to navigate the complexities of the oil industry with 
     resilience and achieve growth.`,
     tags: [
-      "Node JS",
-      "Express JS",
-      "React JS",
-      "Vite",
-      "TypeScript",
-      "Mongo DB",
-      "TailWinds CSS",
-      "JSON Webtokens",
+      "Industry Knowledge",
+      "Technical Expertise",
+      "Analytical Skills",
+      "Argumentation",
+      "Practical Experience",
+      "Project Management",
+      "Project Governance",
+      "Writing",
+      "Business Intelligence",
+      "Industrial Automation",
+      "Employee Satisfaction",
+      "Research",
+      "Investigation",
+
     ],
     links: {
       image: "projects/Soloution.png",
@@ -117,11 +147,17 @@ const articlessData = [
     offering practical insights for organizations and employers in the field of information and communication technology. To access these studies, you can visit my LinkedIn profile. 
     The appended text provides further details on the findings and conclusions.`,
     tags: [
-      "Node JS",
-      "Express JS",
-      "React JS",
-      "Mongo DB",
-      "JSON Webtokens",
+      "ICT Knowledge",
+      "Technical Expertise",
+      "Analytical Skills",
+      "Publication and Dissemination",
+      "Practical Experience",
+      "Critical Thinking",
+      "Writing Skill",
+      "Business Intelligence",
+      "Research",
+      "Investigation",
+      "Subject Matter Expertise",
     ],
     links: {
       image: "projects/IT Outsourcing Success.png",
@@ -137,11 +173,15 @@ const articlessData = [
     of outsourcing IT services for e-commerce are succinctly discussed. Ultimately, the article advocates for aligning technological advancements with ethical principles for 
     responsible leadership in the technology landscape.`,
     tags: [
-      "Node JS",
-      "Express JS",
-      "React JS",
-      "Mongo DB",
-      "JSON Webtokens",
+      "Proficiency in Information Technology Concepts",
+      "Social and Ethical Implications",
+      "Analytical Skills",
+      "Organizational Changes",
+      "Critical Thinking",
+      "Writing and Presentation Skill",
+      "Research and Study",
+      "Investigation",
+      "Awareness of Technological Trends",
     ],
     links: {
       image: "projects/Ethics.png",
