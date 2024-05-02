@@ -87,7 +87,7 @@ export default function Head() {
       >
         <Text className="right-name">S.Mousavi</Text>
         <Text className="right-role" fontSize={{ base: "20", md: "30px" }}>
-           IT Manager
+          {" "} IT Manager
         </Text>
       </VStack>
 
