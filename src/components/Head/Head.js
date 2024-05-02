@@ -70,7 +70,7 @@ export default function Head() {
       >
         <Text className="left-name">Sami.</Text>
         <Text className="left-role" fontSize={{ base: "20", md: "30px" }}>
-         Software Developer
+         Software Developer{"\u00A0"}
         </Text>
       </VStack>
 
