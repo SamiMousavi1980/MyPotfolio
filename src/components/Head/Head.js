@@ -70,7 +70,7 @@ export default function Head() {
       >
         <Text className="left-name">Sami.</Text>
         <Text className="left-role" fontSize={{ base: "20", md: "30px" }}>
-          It Manager
+         Software Developer
         </Text>
       </VStack>
 
@@ -87,7 +87,7 @@ export default function Head() {
       >
         <Text className="right-name">S.Mousavi</Text>
         <Text className="right-role" fontSize={{ base: "20", md: "30px" }}>
-           Software Developer
+           & IT Manager
         </Text>
       </VStack>
 
