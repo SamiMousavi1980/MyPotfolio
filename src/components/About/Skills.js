@@ -43,9 +43,9 @@ export default function Skills() {
       >
       </Text>
       <VStack gap={"12px"} align={"stretch"}>
+        <SkillSet skills={Industry} title={"Industry Knowledge"} />
         <SkillSet skills={languages} title={"Tools & Technologies"} />
         <SkillSet skills={otherSkills} title={"Interpersonal Skills"} />
-        <SkillSet skills={Industry} title={"Industry Knowledge"} />
       </VStack>
     </VStack>
   );

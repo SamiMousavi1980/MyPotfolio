@@ -1,4 +1,10 @@
 const languages = [
+  { name: "Technologies", url: "skills/technology.png" },
+  { name: "Administration", url: "skills/administration.png" },
+  { name: "OS & VM", url: "skills/vmware.png" },
+  { name: "Services", url: "skills/service.png" },
+  { name: "Applications", url: "skills/office.png" },
+  { name: "Support", url: "skills/helpdesk.png" },
   { name: "React JS", url: "skills/react.png" },
   { name: "TypeScript", url: "skills/TypeScript.png" },
   { name: "JavaScript", url: "skills/js.png" },
@@ -12,13 +18,7 @@ const languages = [
   { name: "MySQL", url: "skills/mysql.png" },
   { name: "C#", url: "skills/c.png" },
   { name: "Delphi", url: "skills/delphi.png" },
-  { name: "OS & VM", url: "skills/vmware.png" },
-  { name: "Technologies", url: "skills/technology.png" },
   { name: "Business", url: "skills/audit.png" },
-  { name: "Applications", url: "skills/office.png" },
-  { name: "Services", url: "skills/service.png" },
-  { name: "Administration", url: "skills/administration.png" },
-  { name: "Support", url: "skills/helpdesk.png" },
 ];
 
 const otherSkills = [
@@ -39,6 +39,19 @@ const otherSkills = [
 ];
 
 const Industry = [
+  { name: "SmarTuring", url: "skills/Smart Manufacturing.jpg" },
+  { name: "DigitalTwins", url: "skills/Digital-twin.jpg" },
+  { name: "Asana", url: "skills/Asana.webp" },
+  { name: "Jira", url: "skills/Jira.png" },
+  { name: "Microsoft Office 365", url: "skills/365.png" },
+  { name: "Industrial Robotics", url: "skills/Robotic.png" },
+  { name: "MES", url: "skills/MES.jpg" },
+  { name: "CyberPhysics", url: "skills/Cyber Physics.png" },
+  { name: "AutoIndustry", url: "skills/Automation.jpg" },
+  { name: "ERP", url: "skills/ERP.png" },
+  { name: "InduSec", url: "skills/Sybersecurity.jpg" },
+  { name: "IIoT", url: "skills/IIoT.png" },
+  { name: "Industry 4", url: "skills/Industry 4.png" },
   { name: "Agile", url: "skills/agile.png" },
   { name: "Scrum", url: "skills/scrum.png" },
   { name: "QA & QC", url: "skills/quality.png" },
@@ -46,7 +59,6 @@ const Industry = [
   { name: "Stakeholder", url: "skills/stakeholder.png" },
   { name: "Advancement", url: "skills/career.png" },
   { name: "Transformation", url: "skills/Change.png" },
-  { name: "Culture", url: "skills/culture.png" },
 ];
 
 export { languages, otherSkills , Industry };

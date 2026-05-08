@@ -55,11 +55,8 @@ export default function About() {
         <Text as={"b"} className="space-mono">
           {myAge}
         </Text>
-         - (years.second) old, Experienced IT Manager and specialist with a proven track record in large and complex environments. With over 24 years of experience, my career 
-         encompasses IT management and project management in the oil and gas industry in one of the largest producers in this field in the Middle East. Throughout these roles, 
-         I spearheaded initiatives that streamlined processes, enhanced productivity, and achieved strategic organizational objectives. Additionally, I've served as an IT manager 
-         in a major healthcare facility during the COVID-19 pandemic, further honing my crisis management and IT solution deployment skills to address evolving challenges. With a 
-         wealth of diverse and specialized experiences, I am well-equipped to excel in various roles within the fields of Information Technology and Project Management.
+         - (years.second) old, IT Professional with 20+ years 
+         of experience in industrial and enterprise environments, including oil & gas and healthcare systems. Recently trained in smart manufacturing technologies, including IIoT, Robotics, Digital Twin, and Industrial Data Systems. Experienced in managing IT infrastructure, integrating systems, and supporting digital transformation in complex operational environments. Seeking opportunities in smart manufacturing, industrial it, or automation-driven environments.
       </Text>
 
       <Skills />
