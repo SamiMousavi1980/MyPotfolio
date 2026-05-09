@@ -102,7 +102,7 @@ const projectsData = [
     making it enjoyable even for beginners!`,
     tags: ["javascript", "css", "html"],
     links: {
-      image: "projects/clonegram1.jpg",
+      image: "projects/Clonegram1.jpg",
       code: "https://github.com/Rif-7/clonegram",
       preview: "https://rif-7.github.io/clonegram",
     },
